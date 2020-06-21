@@ -59,7 +59,7 @@ namespace Mystl
 		{
 			return ;
 		}
-		Alloc<T>::deallocate(static_cast<void*>(ptr), sizeof(T)*n);
+		Alloc<T>::deallocate(static_cast<void*>(ptr),sizeof(T)*n);
 	}
 	template<class T>
 	void allocator<T>::construct(T* ptr)
